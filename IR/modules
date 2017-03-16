@@ -1,0 +1,8 @@
+# /etc/modules: kernel modules to load at boot time.
+#
+# This file contains the names of kernel modules that should be loaded
+# at boot time, one per line. Lines beginning with "#" are ignored.
+
+i2c-dev
+lirc-dev
+lirc_rpi gpio_out_pin=26,gpio_in_pin=18
